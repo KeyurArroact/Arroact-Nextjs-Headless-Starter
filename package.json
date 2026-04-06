@@ -1,0 +1,33 @@
+{
+  "name": "arroact-nextjs-headless-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next.js headless starter for Umbraco GraphQL",
+  "scripts": {
+    "dev": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 next dev",
+    "build": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 next build",
+    "start": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 next start",
+    "lint": "next lint",
+    "clean": "rm -rf .next",
+    "add:view": "node scripts/add-view.cjs",
+    "add:component": "node scripts/add-component.js"
+  },
+  "dependencies": {
+    "@types/leaflet": "^1.9.21",
+    "arroact-umbraco-graphql-sdk": "1.0.2",
+    "leaflet": "^1.9.4",
+    "next": "15.1.3",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "cross-env": "10.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "15.1.3",
+    "graphql": "^16.8.1",
+    "typescript": "^5.3.3"
+  }
+}
